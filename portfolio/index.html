@@ -3,72 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio | Web Developer</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- ICONS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Your Name</h1>
-        <p>Frontend Developer | Designer | Programmer</p>
-    </header>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">ONLINE PORTFOLIO</div>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="images/profile.jpg" alt="My Photo">
-        <p>
-            Hi! I'm a passionate web developer skilled in HTML, CSS, JavaScript, and modern frameworks.
-            I love building beautiful and responsive websites.
-        </p>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content fade-in">
+            <h1>JOHN WILLIAMS</h1>
+            <p>Professional Web Developer specializing in Modern Front-End Development.</p>
+            <button class="btn">Hire Me</button>
+
+            <div class="social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <img src="hero.jpg" class="portrait slide-up">
     </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <h2>Skills</h2>
+    <!-- ABOUT -->
+    <section id="about" class="about fade-in">
+        <h2>ABOUT ME</h2>
+        <p>
+            I am a Front-End Developer passionate about creating elegant, responsive, modern web interfaces.
+            I specialize in building websites using HTML, CSS, JavaScript, and UI frameworks.
+        </p>
+        <button class="resume-btn">Download Resume</button>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="fade-in small-gap">
+        <h2>SERVICES</h2>
         <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>UI/UX Design</li>
+            <li>Front-End Development</li>
+            <li>Responsive UI Design</li>
+            <li>Landing Pages</li>
+            <li>Website Optimization</li>
         </ul>
     </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project-card">
-            <img src="images/project1.jpg">
-            <h3>Project Title One</h3>
-            <p>A short description of this project goes here.</p>
-        </div>
-
-        <div class="project-card">
-            <img src="images/project2.jpg">
-            <h3>Project Title Two</h3>
-            <p>A short description of this project goes here.</p>
-        </div>
+    <!-- SKILLS -->
+    <section id="skills" class="fade-in small-gap">
+        <h2>SKILLS</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Bootstrap</li>
+        </ul>
     </section>
 
-    <!-- Resume -->
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="resume.pdf" download class="btn">Download Resume</a>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="fade-in small-gap">
+        <h2>EXPERIENCE</h2>
+        <p>3+ Years of experience building modern, responsive websites.</p>
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: yourname@email.com</p>
-        <p>Phone: +1234567890</p>
+    <!-- PROJECTS -->
+    <section id="projects" class="fade-in small-gap">
+        <h2>PROJECTS</h2>
+        <p>Portfolio Website, Landing Page & Calculator</p>
     </section>
 
-    <!-- Footer -->
+    <!-- CONTACT -->
+    <section id="contact" class="fade-in small-gap">
+        <h2>CONTACT ME</h2>
+        <p>Email: john@example.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2025 Your Name | All Rights Reserved</p>
+        <p>© 2025 John Williams | All Rights Reserved</p>
     </footer>
 
 </body>
